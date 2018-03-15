@@ -1,0 +1,60 @@
+#vis {
+	width:47%;
+	height:250px;
+	float:left;
+	margin-right:10px;
+	margin-left:30px;
+	margin-top:10px;
+	border-radius:8px;
+	background-color:#ccc;
+	box-shadow:3px 3px #000;
+}
+#mis {
+	width:47%;
+	height:250px;
+	float:left;
+	margin-top:10px;
+	border-radius:8px;
+	background-color:#ccc;
+	box-shadow:3px 3px #000;
+}
+#goal{
+	width:47%;
+	height:420px;
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
+	border-radius:8px;
+	margin-right:10px;
+	background-color:#ccc;
+	box-shadow:3px 3px #000;
+}
+#struc{
+	width:47%;
+	height:420px;
+	float:left;
+	margin-top:10px;
+	border-radius:8px;
+	background-color:#ccc;
+	box-shadow:3px 3px #000;
+}
+#vis p {
+	padding:0px 20px 0px 20px;
+	font-size:22px;
+	font-family:verdana;
+}
+#mis p {
+	padding:0px 20px 0px 20px;
+	font-size:22px;
+	font-family:verdana;
+}
+#goal p {
+	padding:0px 20px 0px 20px;
+	font-size:22px;
+	font-family:verdana;
+}
+#struc p {
+	padding:0px 20px 0px 20px;
+	font-size:22px;
+	font-family:verdana;
+}

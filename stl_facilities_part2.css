@@ -1,0 +1,60 @@
+/*#lecture {
+	width:47%;
+	height:400px;
+	float:left;
+	margin-right:10px;
+	margin-left:30px;
+	margin-top:10px;
+	border-radius:8px;
+	background-color:#ccc;
+	box-shadow:3px 3px #000;
+}
+#cafe {
+	width:47%;
+	height:400px;
+	float:left;
+	margin-top:10px;
+	border-radius:8px;
+	background-color:#ccc;
+	box-shadow:3px 3px #000;
+}
+#lab{
+	width:47%;
+	height:400px;
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
+	border-radius:8px;
+	margin-right:10px;
+	background-color:#ccc;
+	box-shadow:3px 3px #000;
+}
+#lib{
+	width:47%;
+	height:400px;
+	float:left;
+	margin-top:10px;
+	border-radius:8px;
+	background-color:#ccc;
+	box-shadow:3px 3px #000;
+}
+#lecture p{
+	padding:0px 20px 0px 20px;
+	font-size:22px;
+	font-family:verdana;
+}
+#lab p {
+	padding:0px 20px 0px 20px;
+	font-size:20px;
+	font-family:verdana;
+}
+#cafe p{
+	padding:0px 20px 0px 20px;
+	font-size:20px;
+	font-family:verdana;
+}
+#lib p {
+	padding:0px 20px 0px 20px;
+	font-size:20px;
+	font-family:verdana;
+}

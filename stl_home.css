@@ -1,0 +1,222 @@
+/* Dtop CSS Start*/
+div#dtop {
+	width:100%;
+	height:100%;
+	margin-top:10px;
+	float:left;
+}
+div#dtop img {
+	width:100%;
+	height:100%;
+}
+body {
+	background-color:#ffffff;
+}
+/* Dtop CSS End*/
+/* Details division CSS Start*/
+div#det1{
+	width:100%;
+	height:266px;
+	margin-top:20px;
+	margin-bottom:15px;
+	float:left;
+}
+div#det1 div#det1_sub{
+    padding-top:10px;
+	padding-bottom:20px;
+	background-color:#ccc;
+	box-shadow:5px 5px black;
+}
+div#det1 h1{
+	text-align:center;
+	font-family:arial;
+	color:red;
+}
+div#det1 p{
+	text-align:center;
+	font-family:arial;
+	color:red;
+}
+/* Details division CSS Start*/
+/* Button CSS Start*/
+
+div.btn {
+	width:256px;
+	height:50px;
+	margin-bottom:5px;
+	margin-top:10px;
+	cursor:pointer
+}
+.btndrp {
+	background-color:#ff4500;
+	color:#ffffff;
+	padding:16px;
+	width:256px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	border-radius:8px;
+	transition: background 0.4s
+}
+#btndrp_abc {
+	background-color:#ff4500;
+	color:#ffffff;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	border-radius:8px;
+	margin-top:10px;
+	transition: background 0.4s;
+	float:left;
+}
+#btndrp_ab {
+	background-color:#ff4500;
+	color:#ffffff;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	border-radius:8px;
+	margin-top:10px;
+	margin-right:5px;
+	transition: background 0.4s;
+	float:left;
+}
+#btndrp_am {
+	margin-left:38px;
+	background-color:#ff4500;
+	color:#ffffff;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	width:150px;
+	border-radius:8px;
+	transition: background 0.4s
+}
+div.btncnt {
+	display:none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width:256px;
+	box-shadow:2px 2px 5px rgb(128,128,128);
+	border-radius:8px
+}
+div.btncnt a {
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+	border-radius:8px
+}
+div.btn:hover > div.btncnt {display:block}
+div.btncnt a:hover {
+	background-color:#f1f1f1;
+	color:#ff3300;
+}
+div.btn:hover>.btndrp {
+	background-color:#FF9855;
+	color:black;
+}
+div#btn5:hover>#btndrp_abc{
+	background-color:#FF9855;
+	color:black;
+}
+div#btn6:hover>#btndrp_ab{
+	background-color:#FF9855;
+	color:black;
+}
+div#btnm:hover>#btndrp_am {
+	background-color:#FF9855;
+	color:black;
+}
+div#btn1 {
+	float:left;
+	margin-right:5px;
+	margin-top:10px;
+}
+div#btnm {
+	float:left;
+	margin-right:5px;
+	margin-top:10px;
+}
+div#btn2,div#btn3{
+	float:left;
+	margin-right:5px
+}
+/* Button CSS End*/
+/* Facalty CSS Start*/
+/*div.facal {
+	width:250px;
+	height:312px;
+	float:left;
+	margin-top:7px;
+	border:solid thin #000000;
+}
+div#facal_com {
+	margin-right:10px;
+	margin-left:10px
+}
+div#facal_bus {margin-right:10px}
+div#facal_eng {margin-left:20px}
+div.facal a div.facal_pic img {
+	width:300px;
+	height:250px;
+	transition: opacity 1s
+}
+div.facal a div.facal_pic p {
+	background-color:#ff3300;
+	color:#ffffff;
+	font-family:verdana;
+	font-size:18;
+	padding:20px;
+	margin:auto;
+	transition: opacity 1s
+}
+div.facal a {
+	text-decoration:none;
+}
+div.facal:hover> a img{
+	opacity:0.7;
+}
+div.facal:hover> a p {
+	opacity:0.7
+}
+/* Facalty CSS End*/
+/* Bottom Div CSS Start */
+div#dbotom {
+	width:100%;
+	height:255px;
+	margin-top:20px;
+	float:left;
+	border:solid black thin;
+	background-color:#000000;
+}
+div#dbotom div#h1{
+	float:left;
+	margin-left:30px;
+}
+div#dbotom div#h2{
+	float:left;
+	margin-left:300px;
+}
+div#dbotom div#h3{
+	float:right;
+	margin-right:200px;
+}
+div#h4 img.icon{
+	margin-right:5px;
+}
+div#h4 img.icon:hover {
+	opacity:0.7;
+	box-shadow:2px 2px 2px #ffffff;
+}
+div#h4 img.valid:hover {
+	opacity:0.5;
+}
+div#h1 a p:hover {
+	opacity:0.5;
+}
+/* Bottom Div CSS End */
+

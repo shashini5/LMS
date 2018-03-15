@@ -1,0 +1,215 @@
+/*lesson topic css code start */
+#lesson_topic {
+	width:50%;
+	height:80px;
+	border:solid 2px #ffffff;
+	margin-top:10px;
+	float:left;
+	border-radius:50px 0px 50px 0px;
+	margin-left:330px;
+}
+#lesson_topic p {
+	text-align:center;
+	margin-top:10px;
+	font-size:20px;
+	font-family:century gothic;
+	color:#FF2E00;
+}
+/*lesson topic css code End */
+.module {
+	width:80%;
+	height:40px;
+	border:solid 1px #ffffff;
+	float:left;
+	margin-top:10px;
+	margin-left:130px;
+	border-radius:50px;
+}
+.module a {
+	font-family:verdana;
+	font-size:20px;
+	margin-left:400px;
+	text-decoration:none;
+	color:#FF2E00;
+}
+/*lesson Uploaad CSS Code Start */
+.lesson_upload {
+	float:left;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	margin-top:10px;
+	margin-left:8px;
+	background-color:#52FF47;
+	cursor:pointer;
+}
+.lesson_upload img {
+	width:40px;
+	height:40px;
+	border-radius:50%;
+}
+.lesson_upload:hover {
+	margin-top:8px;
+	opacity:0.9;
+	margin-left:10px;
+}
+/*lesson Upload CSS Code End */
+
+/*Lesson Delete CSS Code Start */
+.lesson_remove {
+	float:left;
+	width:40px;
+	height:40px;
+	margin-top:10px;
+	margin-left:8px;
+	cursor:pointer;
+}
+.lesson_remove img {
+	width:40px;
+	height:40px;
+}
+.lesson_remove:hover {
+	margin-top:8px;
+	opacity:0.9;
+	margin-left:10px;
+}
+/*Lesson Delete CSS Code End */
+
+/*lesson Delete Division CSS Code Start */
+#les_rem_bak {
+	top:0;
+	left:0;
+	position:fixed;
+	display:none;
+	width:100%;
+	height:100%;
+	z-index:1;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.4);
+}
+#les_rem_form {
+	border-radius:8px;
+	margin-top:60px;
+	margin-left:400px;
+	background-color:#F8F9F9;
+	width:600px;
+	height:450px;
+	display:block;
+	margin-right:100px;
+	box-shadow:5px 5px 10px #000000;
+}
+#les_rem_bak #les_rem_form p {
+	color:#ffffff;
+	text-align:center;
+	font-family:century gothic;
+	font-size:20px;
+	background-color:#000033;
+	padding:10px;
+}
+#les_rem_bak #les_rem_form input[type=submit]{
+	margin-left:100px;
+	margin-top:15px;
+	float:left;
+	padding:5px;
+	width:100px;
+	cursor:pointer;
+	border:none;
+	background-color:#28B463;
+	color:#ffffff;
+	border-radius:4px;
+}
+#les_rem_bak #les_rem_form input[type=button]{
+	margin-top:15px;
+	margin-left:200px;
+	padding:5px;
+	width:100px;
+	cursor:pointer;
+	border:none;
+	background-color:#FF471A;
+	border-radius:4px;
+	color:#ffffff;
+}
+#les_rem_bak #les_rem_form label {
+	margin-left:10px;
+	font-family:verdana;
+	font-size:18px;
+}
+#les_rem_bak #les_rem_form input[type=text],input[type=password]{
+	width:80%;
+	height:40px;
+	margin-left:15px;
+	border:none;
+	background-color:#EAECEE;
+	border:solid thin gray;
+	padding:10px;
+}
+/*lesson Delete Division CSS Code End */
+
+/*lesson Setting Division CSS Code Start */
+#les_up_bak {
+	top:0;
+	left:0;
+	position:fixed;
+	display:none;
+	width:100%;
+	height:100%;
+	z-index:1;
+	background-color:rgb(0,0,0);
+	background-color:rgba(0,0,0,0.4);
+}
+#les_up_form {
+	margin-top:5px;
+	margin-left:400px;
+	background-color:#F8F9F9;
+	width:600px;
+	height:600px;
+	display:block;
+	margin-right:100px;
+	box-shadow:5px 5px 10px #000000;
+}
+#les_up_bak #les_up_form p {
+	color:#ffffff;
+	text-align:center;
+	font-family:century gothic;
+	font-size:20px;
+	background-color:#000033;
+	padding:10px;
+}
+#les_up_bak #les_up_form label {
+	margin-left:10px;
+	font-family:verdana;
+	font-size:18px;
+}
+#les_up_bak #les_up_form input[type=text],input[type=password]{
+	width:80%;
+	height:40px;
+	margin-left:15px;
+	border:none;
+	background-color:#EAECEE;
+	border:solid thin gray;
+	padding:10px;
+}
+#les_up_bak #les_up_form input[type=submit]{
+	margin-left:50px;
+	margin-top:20px;
+	float:left;
+	padding:5px;
+	width:100px;
+	cursor:pointer;
+	border:none;
+	background-color:#28B463;
+	color:#ffffff;
+	border-radius:4px;
+}
+#les_up_bak #les_up_form input[type=button]{
+	margin-top:20px;
+	margin-left:230px;
+	padding:5px;
+	width:100px;
+	cursor:pointer;
+	border:none;
+	background-color:#FF471A;
+	border-radius:4px;
+	color:#ffffff;
+}
+/*lesson Setting Division CSS Code End */

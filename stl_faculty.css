@@ -1,0 +1,225 @@
+body {
+	background-image:url("pics/back2.jpg");
+}
+/* Button CSS Start */
+div.btn {
+	width:256px;
+	height:50px;
+	margin-bottom:5px;
+	margin-top:10px;
+	cursor:pointer
+}
+.btndrp {
+	background-color:#ff4500;
+	color:#ffffff;
+	padding:16px;
+	width:256px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	border-radius:8px;
+	transition: background 0.4s
+}
+#btndrp_abc {
+	background-color:#ff4500;
+	color:#ffffff;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	border-radius:8px;
+	margin-top:10px;
+	transition: background 0.4s;
+	float:left;
+}
+#btndrp_ab {
+	background-color:#ff4500;
+	color:#ffffff;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	border-radius:8px;
+	margin-top:10px;
+	margin-right:5px;
+	transition: background 0.4s;
+	float:left;
+}
+#btndrp_am {
+	margin-left:38px;
+	background-color:#ff4500;
+	color:#ffffff;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	width:150px;
+	border-radius:8px;
+	transition: background 0.4s
+}
+div.btncnt {
+	display:none;
+	position:absolute;
+	background-color:#f9f9f9;
+	min-width:256px;
+	box-shadow:2px 2px 5px rgb(128,128,128);
+	border-radius:8px
+}
+div.btncnt a {
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+	border-radius:8px
+}
+div.btn:hover > div.btncnt {display:block}
+div.btncnt a:hover {
+	background-color:#f1f1f1;
+	color:#ff3300;
+}
+div.btn:hover>.btndrp {
+	background-color:#FF9855;
+	color:black;
+}
+div#btn5:hover>#btndrp_abc{
+	background-color:#FF9855;
+	color:black;
+}
+div#btn6:hover>#btndrp_ab{
+	background-color:#FF9855;
+	color:black;
+}
+div#btnm:hover>#btndrp_am {
+	background-color:#FF9855;
+	color:black;
+}
+div#btn1 {
+	float:left;
+	margin-right:5px;
+	margin-top:10px;
+}
+div#btnm {
+	float:left;
+	margin-right:5px;
+	margin-top:10px;
+}
+div#btn2,div#btn3{
+	float:left;
+	margin-right:5px
+}
+/* Button CSS End */
+
+/* Contain CSS Start */
+div#f1 {
+	border:solid thin black;
+	border-radius:5px;
+	width:500px;
+	height:400px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+}
+div.f2{
+	width:28%;
+	height:189px;
+	border:solid thin black;
+	float:left;
+	border-radius:5px;
+	cursor:pointer;
+}
+div.f2 p {
+	margin:auto;
+	text-align:center;
+	font-family:century gothic;
+	color:#ffffff; 
+	background-color:#800000;
+	padding:10px;
+}
+div#f2_con_1 {
+	margin-top:20px;
+	margin-left:20px;
+}
+div#f2_con_1 img {
+	width:50%;
+	height:120px; 
+	border:solid thin black;
+    margin-left:90px;
+    margin-top:10px;
+    border-radius:50%;	
+}
+div#f2_con_2 {
+	margin-top:20px;
+	margin-left:20px;
+}
+div#f2_con_2 img {
+	width:50%;
+	height:120px; 
+	border:solid thin black;
+    margin-left:90px;
+    margin-top:10px;
+    border-radius:50%;
+}
+div#f2_con_3{
+	margin-top:20px;
+	margin-left:20px;
+}
+div#f2_con_3 img {
+	width:50%;
+	height:120px; 
+	border:solid thin black;
+    margin-left:90px;
+    margin-top:10px;
+    border-radius:50%;
+}
+div#f2_con_4{
+	margin-top:20px;
+	margin-left:20px;
+}
+div#f2_con_4 img {
+	width:50%;
+	height:120px; 
+	border:solid thin black;
+    margin-left:90px;
+    margin-top:10px;
+    border-radius:50%;
+}
+div.f2:hover {
+	opacity:0.5;
+}
+/* Contain CSS End */
+
+/* Bottom Div CSS Start */
+div#dbotom {
+	width:100%;
+	height:255px;
+	margin-top:20px;
+	float:left;
+	background-color:#000000;
+}
+div#dbotom div#h1{
+	float:left;
+	margin-left:30px;
+}
+div#dbotom div#h2{
+	float:left;
+	margin-left:300px;
+}
+div#dbotom div#h3{
+	float:right;
+	margin-right:200px;
+}
+div#h4 img.icon{
+	margin-right:5px;
+}
+div#h4 img.icon:hover {
+	opacity:0.7;
+	box-shadow:2px 2px 2px #ffffff;
+}
+div#h4 img.valid:hover {
+	opacity:0.5;
+}
+div#h1 a p:hover {
+	opacity:0.5;
+}
+/* Bottom Div CSS End */
+
